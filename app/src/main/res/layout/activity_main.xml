@@ -35,22 +35,23 @@
 
 
         <Button
-            android:id="@+id/btnMaps"
+            android:id="@+id/button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
-            android:background="#259A2B"
-            android:text="Mapas"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:text="Button"
+            android:background="#FF389A27"
+            android:onClick="proximaTela"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="-2dp"/>
+
 
         <Button
             android:id="@+id/btnLogout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
-            android:background="@color/btn_logout_bg"
+            android:background="#FF6861"
             android:text="@string/btn_logout"
             android:textAllCaps="false"
             android:textColor="@color/white"
